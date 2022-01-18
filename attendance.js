@@ -81,11 +81,11 @@ let stop = STOP = function() {
         meet_duration: meet_duration
     }
 
-    chrome.storage.sync.set({ 'latest_meet_attendance': attendance_details }, function() {
+    chrome.storage.local.set({ 'latest_meet_attendance': attendance_details }, function() {
         console.log('Attendance saved for ' + meet_code);
     })
 
-    window.open('http://127.0.0.1:8000/mac/save/');
+    window.open('https://meetattendance.herokuapp.com/mac/save/');
 }
 
 // Adding attendance status to meet ui 
