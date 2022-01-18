@@ -1,6 +1,6 @@
 # Meet Attendance Collector
 
-###### Chrome Extension
+###### FirefoxExtension
 
 Automatically save attendance during google meet video calls.
 
