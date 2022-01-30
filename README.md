@@ -19,3 +19,4 @@ Get the extension on [https://addons.mozilla.org/en-US/firefox/addon/trackit](ht
 no manual work required ! it's fully automatic.
 
 ![](./icons/chrome_ext.png)
+![](./icons/att_report.png)
